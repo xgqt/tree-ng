@@ -114,7 +114,7 @@ int main(int argc, char **argv)
   }
 
 /* Until I get rid of this hack, make it linux/cygwin/HP nonstop only: */
-#if defined (LINUX) || defined (CYGWIN) || defined (__TANDEM)
+#if defined (__linux__) || defined (CYGWIN) || defined (__TANDEM)
   mb_cur_max = (int)MB_CUR_MAX;
 #else
   mb_cur_max = 1;
