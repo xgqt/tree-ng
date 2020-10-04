@@ -23,7 +23,8 @@ $(OBJS): %.o:	%.c tree.h
 
 tar:	all
 	cp doc/$(MAN) $(MAN)
-	tar zcf tree-$(VERSION).tgz --remove-files tree $(MAN)
+	tar zcf tree-$(VERSION).tgz tree $(MAN)
+	rm $(MAN)
 
 distclean:
 	if [ -f tree-$(VERSION).tgz ]; then rm tree-$(VERSION).tgz; fi
