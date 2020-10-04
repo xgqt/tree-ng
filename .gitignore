@@ -1,6 +1,7 @@
 **/*.rs.bk
 *.egg-info/
 *.swp
+*.tgz
 ,*
 .idea/
 .vscode/
