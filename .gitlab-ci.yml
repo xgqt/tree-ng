@@ -1,0 +1,15 @@
+image: alpine:3
+
+stages:
+  - dev
+
+before_script:
+  - apk update
+  - apk add gcc make musl-dev
+
+test:
+  stage: dev
+  script:
+    - sh dev.sh
+    - tar fxv *.tgz
+    - ./tree -a -I ".git"
