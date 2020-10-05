@@ -25,7 +25,7 @@ The original source can be found on http://mama.indstate.edu/users/ice/tree/
 
 ## Legacy
 
-Some of the documentation before the start of changes is kept in "legacy" directory.
+Some of the documentation before the start of changes are kept in "legacy" directory.
 
 The first commit is the unchanged tree source as I received it.
 
