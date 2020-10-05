@@ -11,7 +11,7 @@
     <a href="https://gitlab.com/xgqt/tree-ng/commits/master.atom">
         <img src="https://img.shields.io/badge/feed-atom-orange.svg">
     </a>
-    <a href="./LICENSE.md">
+    <a href="./LICENSE">
         <img src="https://img.shields.io/badge/license-GPLv3-blue.svg">
     </a>
 </p>
