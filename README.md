@@ -19,12 +19,15 @@
 
 ## About
 
-This a fork of the Steve Baker's tree (http://mama.indstate.edu/users/ice/tree/)
+Ths is a fork of the Steve Baker's tree.
+The original source can be found on http://mama.indstate.edu/users/ice/tree/ 
 
 
 ## Legacy
 
-The documentation before the start of changes is kept in "legacy" directory
+Some of the documentation before the start of changes is kept in "legacy" directory.
+
+The first commit is the unchanged tree source as I received it.
 
 
 ## Building
