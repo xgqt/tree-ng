@@ -17,7 +17,7 @@
 # Licensed under the GNU GPL v3 License
 
 
-cmake_minimum_required(VERSION 2.4)
+cmake_minimum_required(VERSION 3.1)
 
 project(tree-ng)
 
