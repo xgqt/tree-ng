@@ -24,12 +24,13 @@
 *.tgz
 ,*
 .idea/
-.vscode/
 .vs/
+.vscode/
 .~lock.*
 /target
 build/
 build/
+compile_commands.json
 
 color.o
 file.o

@@ -22,4 +22,17 @@ cmake_minimum_required(VERSION 3.1)
 project(tree-ng)
 
 
-add_subdirectory(src)
+include_directories(${PROJECT_SOURCE_DIR})
+
+add_executable(tree-ng
+  src/color.c
+  src/file.c
+  src/hash.c
+  src/html.c
+  src/json.c
+  src/strverscmp.c
+  src/tree.c
+  src/tree.h
+  src/unix.c
+  src/xml.c
+)
