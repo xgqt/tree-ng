@@ -13,7 +13,7 @@
  * along with tree-ng.  If not, see <https://www.gnu.org/licenses/>.
 
  * Copyright (c) 1996 - 2018 by Steve Baker (ice@mama.indstate.edu)
- * Copyright (c) 2020-2021, Maciej Barć (xgqt@protonmail.com)
+ * Copyright (c) 2020-2021, Maciej Barć (xgqt@riseup.net)
  * Licensed under the GNU GPL v3 License
  */
 
