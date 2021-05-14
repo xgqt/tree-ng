@@ -24,15 +24,7 @@ project(tree-ng)
 
 include_directories(${PROJECT_SOURCE_DIR})
 
+file(GLOB SRC_FILES "src/*.c" "src/*.h")
 add_executable(tree-ng
-  src/color.c
-  src/file.c
-  src/hash.c
-  src/html.c
-  src/json.c
-  src/strverscmp.c
-  src/tree.c
-  src/tree.h
-  src/unix.c
-  src/xml.c
-)
+  ${SRC_FILES}
+  )
